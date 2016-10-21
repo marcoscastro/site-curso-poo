@@ -9,7 +9,7 @@ h1 {
 }
 
 .lead {
-	color:#DDCCEE;
+  color:#DDCCEE;
 }
 
 
@@ -30,4 +30,31 @@ h1 {
 
 .v-center {
   margin-top:3%;
+}
+
+@media only screen and (max-width: 767px) {
+   .fb-comments {
+    width: 100% !important;
+   }
+.fb-comments iframe[style] {
+   width: 100% !important;
+  }
+.fb-like-box {
+   width: 100% !important;
+  }
+.fb-like-box iframe[style] {
+   width: 100% !important;
+  }
+.fb-comments span {
+   width: 100% !important;
+  }
+.fb-comments iframe span[style] {
+   width: 100% !important;
+  }
+.fb-like-box span {
+   width: 100% !important;
+  }
+.fb-like-box iframe span[style] {
+   width: 100% !important;
+  }
 }
