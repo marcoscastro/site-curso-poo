@@ -12,6 +12,13 @@ h1 {
   color:#DDCCEE;
 }
 
+/* Padrao para quando for acessado do pc */
+.video-responsivo
+{
+  width: 640px;
+  height:360px;
+}
+
 
 /* Custom container */
 .container-full {
@@ -32,29 +39,49 @@ h1 {
   margin-top:3%;
 }
 
+
 @media only screen and (max-width: 767px) {
+
+
+  /* Padrao para quando for acessado do tablet */
+    .video-responsivo
+    {
+      width: 80%;
+      height: 300px;
+    }
+
    .fb-comments {
     width: 100% !important;
    }
-.fb-comments iframe[style] {
-   width: 100% !important;
-  }
-.fb-like-box {
-   width: 100% !important;
-  }
-.fb-like-box iframe[style] {
-   width: 100% !important;
-  }
-.fb-comments span {
-   width: 100% !important;
-  }
-.fb-comments iframe span[style] {
-   width: 100% !important;
-  }
-.fb-like-box span {
-   width: 100% !important;
-  }
-.fb-like-box iframe span[style] {
-   width: 100% !important;
+  .fb-comments iframe[style] {
+     width: 100% !important;
+    }
+  .fb-like-box {
+     width: 100% !important;
+    }
+  .fb-like-box iframe[style] {
+     width: 100% !important;
+    }
+  .fb-comments span {
+     width: 100% !important;
+    }
+  .fb-comments iframe span[style] {
+     width: 100% !important;
+    }
+  .fb-like-box span {
+     width: 100% !important;
+    }
+  .fb-like-box iframe span[style] {
+     width: 100% !important;
+    }
+}
+@media only screen and (max-width: 500px)
+{
+
+  /* Padrao para quando for acessado do celular */
+  .video-responsivo
+  {
+    width: 80%;
+    height: 210px;
   }
 }
