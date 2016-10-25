@@ -28,6 +28,10 @@ def index():
 def obrigado():
 	return template('obrigado')
 
+@route('/python')
+def python():
+	return template('python')
+
 @error(404)
 def error404(error):
 	return template('index')
